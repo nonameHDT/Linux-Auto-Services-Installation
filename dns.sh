@@ -1,10 +1,12 @@
 #!/bin/bash
 
 	/* 
-	 * Viết bởi nonameHDT
+	 * Written by nonameHDT
 	 * Release: 03/06/2016
 	 *
-	 * Script tự động cài đặt DNS service cho CentOS 6
+	 * This project is a collection of scripts to automate the installation 
+	 * of the services on Linux servers. To help administrators more easily 
+	 * in the installation of the services.
 	 */
 
 	read -p "Domain (github.com): " domain
