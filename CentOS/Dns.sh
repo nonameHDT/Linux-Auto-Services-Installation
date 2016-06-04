@@ -1,10 +1,10 @@
 #!/bin/bash
 
-	/*
-	 * Written by nonameHDT
-	 * Release: 04/06/2016
-	 * Auto install DNS service on CentOS server
-	 */
+	
+#Written by nonameHDT
+#Release: 04/06/2016
+#Auto install DNS service on CentOS server
+	 
 	read -p "Domain (github.com): " domain
 	read -p "This server FQDN (server1.github.com): " fqdn
 	read -p "Reverse Network (10.168.192):" reversenetwork
