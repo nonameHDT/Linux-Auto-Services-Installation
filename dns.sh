@@ -1,7 +1,7 @@
 #!/bin/bash
 
 	read -p "Domain (github.com): " domain
-	read -p "This FQDN (server1.github.com): " fqdn
+	read -p "This server FQDN (server1.github.com): " fqdn
 	read -p "Reverse Network (10.168.192):" reversenetwork
 		
 	hname=`echo $fqdn | cut -d . -f 1`
